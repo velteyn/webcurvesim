@@ -21,13 +21,6 @@
 
 <p>WebCurve simulator provides the following features for you with an open source license(its basically free, please read the license for details):</p>
 
-<ul>
-<li>A set of core functions to simulate the exchange behavior.</li>
-<li>A FIX gateway supported by QuickFIX/J for your FIX application testing</li>
-<li>Market making simulation to provide a simulated market</li>
-<li>Market replay function to support replay live market data</li>
-</ul>
-
 <ul><li>A set of core functions to simulate the exchange behavior.</li><li>A FIX gateway supported by QuickFIX/J for your FIX application testing</li><li>Market making simulation to provide a simulated market</li><li>Market replay function to support replay&nbsp;live market data</li></ul>Known limitation<br><ul><li>No stock, price, price step, lot size validation. This would require a huge database implementation.</li><li>Only support FIX 4.2. I am happy to implement other versions in a later stage if &nbsp;there are enough interest out there.</li><li>Webecurvesim.jar
 provides generic interface to java 6/5/1/1.4.2. The sample
 programs main()s are written and compiled with java 5 so you need to
