@@ -2,33 +2,32 @@
 <h1>Stock Market Simulator with FIX gateway support</h1>
 
 
-If you work for financial industry especially in Equity/Derivative trading area, often you may want a stock exchange simulator for your application testing. There are a few reasons for this:
 
-The test exchange gateways provided by exchange may not be always available. e.g. some are not available after working hours or in the weekend.
-The test exchange gateways provided by exchange are shared by other brokers and your testing may be interfered by other people.
-An exchange simulator provides you the freedom of total controling when and how to use it since you own the simulator.
-You could perform load testing on your application against the simulator where its usually prohibited on the test exchange since it might overload the system and affect testers from other brokers.
-It's extreme useful for algorithmic trading testing due to
+<p >A generic equity/derivative stock exchange simulator</p>
+<p>If you work in financial industry especially in Equity/Derivative trading area, often you wish to have a stock exchange simulator for your application testing. There are a few reasons for this:</p>
 
-"you own the market" such that you could generate any scenario for your testing
-you can replay the market data for your back testing and even play different strategies or same strategy with different parameters against the replay market to fine tune performance.
+<ul>
+<li>The test exchange gateways provided by exchange may not be always available. e.g. some are not available after working hours or in weekend.</li>
+<li>The test exchange gateways provided by exchange are shared by other brokers and your testing may be interfered by other people.</li>
+<li>An exchange simulator provides you the freedom of total controlling when and how to use it since you own the simulator.</li>
+<li>You could perform load testing on your application against the simulator where its usually prohibited on the test exchange since it might overload the system and affect testers from other brokers.</li>
+<li>It's extreme useful for algorithmic trading testing due to
 
+<ol><li>"you own the market" such that you could generate any scenario for your testing</li>
+<li>you can replay the market data for your back testing and even play different strategies or same strategy with different parameters against replay market to fine tune strategy performance.</li></ol></li>
+</ul>
 
-<b>Features</b>
-<p>
-WebCurve simulator provides the following features for you with an open sourcelicense(its basically free, please read the license for details
-</p>
-A set of core functions to simulate the exchange behavior.
-A FIX gateway supported by QuickFIX/J for your FIX application testing
-Market making simulation to provide a simulated market
-Market replay function to support replay live market data
+<p>Features:</p>
 
-Known limitation
+<p>WebCurve simulator provides the following features for you with an open source license(its basically free, please read the license for details):</p>
 
-No stock, price, price step, lot size validation. This would require a huge database implementation.
-Only support FIX 4.2. I am happy to implement other versions in a later stage if there are enough interest out there.
-Webecurvesim.jar provides a generic interface to java 6/5/1/1.4.2. The sample programs main()s are written and compiled with java 5 so you need to get java 5/6 runtime to play. If your application is at 1.4.x, you are stillable to the webcurvesim.jar lib but just need to write your interface program in 1.4.x way.
+<ul>
+<li>A set of core functions to simulate the exchange behavior.</li>
+<li>A FIX gateway supported by QuickFIX/J for your FIX application testing</li>
+<li>Market making simulation to provide a simulated market</li>
+<li>Market replay function to support replay live market data</li>
+</ul>
 
-
-There are 4 sample programs come with this bundle which demonstrate how WebCurve simulator works.
-Original author is Dennis Chen, you can contact him here at dennis_d_chen@yahoo.com.
+              
+<p>There are 4 sample programs come with this bundle which demonstrate how WebCurve simulator works.</p>
+<p>Original author is Dennis Chen, you can contact him here at dennis_d_chen@yahoo.com.</p>
